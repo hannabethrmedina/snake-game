@@ -1,0 +1,19 @@
+Our group recreated a snake game where the player maneuvers a snake which grows in length, with the snake itself being a primary obstacle.
+Each time the snake moves over a dot, or food, on the screen, it will cause the line to get longer and the screen to get smaller, leaving the snake less space, as a visual display of the game state.
+The player will use keyboard inputs to change the direction of the snake, it can move left, right, up, and down based on the key pressed, but the snake can not run into itself by flipping directions (going left, then right).
+The goal of the game will be to make the snake grow as long as possible without running into itself or a screen border.
+The rules include:
+ 1.  Collect the dots to grow longer and gain points.
+ 2.  The snake cannot run into itself.
+ 3.  The snake cannot run into the borders of the screen, which get smaller with each food collected.
+The score corresponding with the length of the snake will be displayed through a GUI interface display in the corner of the screen.
+The player continues to grow until they run into the wall, or their own snake. 
+The screen changes to show end of game, display the player's final score, and provide a button (shift) if the player wants to restart the game.
+
+Hannabeth was in charge of creating the snake class and its functionalities increasing lengths, and maneuvering the snake
+Anna-Maria was in charge of creating the dots that the snake collects, the game grid, and the boudaries for ending the game
+Aditya was in charge of creating the GUI to keep track of the score, display the score, and will create the end of game/restart screen, and will display the snake on the screen.
+
+The food location function generates food bits at a random location in the grid after each food is eaten
+The key inputs change the direction of the snake movement while making sure it cannot flip directions and has a chance in the grid at the start of each new game
+The snake class includes functions to make the snake move, add to its length when it gets food bits, detects when the snake is out of bounds or runs into itself, keeps track of the snake length, displays the score, and keeps track of game state.
