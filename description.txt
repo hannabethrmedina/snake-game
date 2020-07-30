@@ -10,9 +10,6 @@ The score corresponding with the length of the snake will be displayed through a
 The player continues to grow until they run into the wall, or their own snake. 
 The screen changes to show end of game, display the player's final score, and provide a button (shift) if the player wants to restart the game.
 
-Hannabeth was in charge of creating the snake class and its functionalities increasing lengths, and maneuvering the snake
-Anna-Maria was in charge of creating the dots that the snake collects, the game grid, and the boudaries for ending the game
-Aditya was in charge of creating the GUI to keep track of the score, display the score, and will create the end of game/restart screen, and will display the snake on the screen.
 
 The food location function generates food bits at a random location in the grid after each food is eaten
 The key inputs change the direction of the snake movement while making sure it cannot flip directions and has a chance in the grid at the start of each new game
