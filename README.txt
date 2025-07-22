@@ -1,3 +1,5 @@
+Created in 2020.
+
 Instructions:
 press the arrow keys to maneuver the snake and run over the green food bits to grow
 stay within the borders and don't run into the body to stay alive
