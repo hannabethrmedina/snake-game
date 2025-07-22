@@ -1,4 +1,4 @@
-Created in 2020.
+Created in 2020. Transferred from previous GitHub (educational) account. 
 
 Instructions:
 press the arrow keys to maneuver the snake and run over the green food bits to grow
